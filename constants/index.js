@@ -21,13 +21,13 @@ const cocktailLists = [
  {
 	name: "Chapel Hill Shiraz",
 	country: "AU",
-	detail: "Battle",
+	detail: "Bottle",
 	price: "$10",
  },
  {
 	name: "Caten Malbee",
 	country: "AU",
-	detail: "Battle",
+	detail: "Bottle",
 	price: "$49",
  },
  {
@@ -44,17 +44,17 @@ const cocktailLists = [
  },
 ];
 
-const mockTailLists = [
+const mocktailLists = [
  {
 	name: "Tropical Bloom",
 	country: "US",
-	detail: "Battle",
+	detail: "Bottle",
 	price: "$10",
  },
  {
 	name: "Passionfruit Mint",
 	country: "US",
-	detail: "Battle",
+	detail: "Bottle",
 	price: "$49",
  },
  {
@@ -172,7 +172,7 @@ const sliderLists = [
 export {
  navLinks,
  cocktailLists,
- mockTailLists,
+ mocktailLists,
  profileLists,
  featureLists,
  goodLists,
