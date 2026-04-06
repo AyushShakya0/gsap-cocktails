@@ -29,8 +29,8 @@ const Art = () => {
             stagger: 0.2,
         })
         .to('.masked-img', {
-            // scale: 1.3,
-            scale: 0.5,
+            scale: 1.3,
+            // scale: 0.5,
             ease: "power1.inOut",
             maskPosition: "center",
             maskSize: "400%",
