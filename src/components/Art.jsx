@@ -29,17 +29,17 @@ const Art = () => {
             stagger: 0.2,
         })
         .to('.masked-img', {
-            scale: 1.3,
-            // scale: 0.5,
+            // scale: 1.3,
+            scale: 0.5,
             ease: "power1.inOut",
             maskPosition: "center",
             maskSize: "400%",
-            duration: 1,
+            duration: 0.75,
         }, 0)
         .to('#masked-content', {
             opacity: 1,
             ease: "power1.inOut",
-            duration: 1,
+            duration: 0.75,
         }, 0.5);
 
 
